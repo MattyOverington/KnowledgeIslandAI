@@ -1,0 +1,33 @@
+
+                                 Notes                                 
+.oO0--------------------------------------------------------------0Oo.
+ --------------------------------------------------------------------
+
+
+
+// .oO0-------------------------------------------------------0Oo. //
+// ----------------------------- Plan ---------------------------- //
+// .oO0-------------------------------------------------------0Oo. //
+
+1. Mr Pass [complete :D]
+2. One that creates an arc in one direction, a campus, then two more
+   arcs then a campus...
+   1. Keeps on trading students to get an arc
+   2. Makes arc
+   3. Keeps on trading students to get a campus
+   4. Makes campus
+   5. Keeps on trading students to get an arc
+   6. Makes arc
+   7. Repeat
+   8. If not legal (got to end of island) start spinoff
+2. Hash define certain preffered values for different amount of students
+   and try to get toward this by
+   1. Calculating the reward for building a campus next to a certain
+      region
+   2. Going for that
+3. Make it take into account cost
+   1. Calculate the cost for aiming to build a campus next to a certain
+      region
+   2. Make algorithm to compare a goal's reward compared to cost
+   3. Rank all goals
+   4. Choose best one and make it go for this one

@@ -1,0 +1,23 @@
+/*
+ *  MrArcThenCampus.c
+ *  AI that creates an arc, then a campus, if both are legal
+ *  21-5-2014 Matthew Overington and Hector Morlet
+ *
+ */
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+ 
+#include "Game.h"
+#include "mechanicalTurk.h"
+
+#define NUM_EDGES
+
+action decideAction (Game g) {
+   action nextAction;
+   
+   nextAction.actionCode = 0;
+  
+   return nextAction;
+}
